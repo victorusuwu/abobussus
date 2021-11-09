@@ -1,10 +1,4 @@
-print ('привет')
-x = input('введи число у которого хочешь узнать степени ')
-x=int(x)
-print(x)
-print (x*x)
-print (x*x*x)
-print (x*x*x*x)
-print (x*x*x*x*x)
-print (x*x*x*x*x*x)
-print (x*x*x*x*x*x*x)
+import pyautogui
+name = input('Как вас зовут?')
+pyautogui.alert(text='ВZL0М VAШЕi BEБRЫ ZAPUЩЕН '+name, title='VAS ZAKIBERBULILI', button='мне пофиг') 
+
