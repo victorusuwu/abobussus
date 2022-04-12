@@ -4,12 +4,14 @@ bot=random.randint(1,3)
 while True:
     ti =input('камень ножницы бумага')
     ti = int(ti)
+    bot=random.randint(1,3)
     if ti == bot:
         print('одинаково переигрываем')
-        bot=random.randint(1,3)
-        ti =input('камень ножницы бумага')
+        
+        
     elif bot == 1 and ti == 3:
         print('Вы победили')
+       
     elif bot == 2 and ti == 3:
         print('Вы проиграли')
     elif bot == 3 and ti == 2:
